@@ -1,0 +1,6 @@
+ALTER TABLE PARAMETRES_MEMBRES
+MODIFY id_personne VARCHAR(50) NOT NULL
+MODIFY id_utilisateur VARCHAR(50) NOT NULL
+MODIFY masse_initiale FLOAT(10) NOT NULL
+MODIFY taille_utilisateur FLOAT(10) NOT NULL
+MODIFY date_debut_souscription DATE NOT NULL;
