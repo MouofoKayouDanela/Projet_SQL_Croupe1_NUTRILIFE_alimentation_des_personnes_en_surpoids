@@ -1,0 +1,4 @@
+ ALTER TABLE PROGRAMME_REGIME 
+ MODIFY   id_programme_regime VARCHAR(50) NOT NULL 
+ MODIFY   nom_regime VARCHAR (50) NOT NULL
+  ;
