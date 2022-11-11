@@ -1,0 +1,3 @@
+ALTER TABLE SOUSCRIPTION
+ADD CONSTRAINT cp_souscription_id_utilisateur
+PRIMARY KEY(id_utilisateur,date_debut_souscription);
