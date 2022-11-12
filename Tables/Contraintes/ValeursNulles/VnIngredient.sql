@@ -1,0 +1,4 @@
+ALTER TABLE INGREDIENT   (
+    MODIFY id_ingredient VARCHAR(50) NOT NULL
+    MODIFY nom_ingredient VARCHAR(50) NOT NULL
+);
