@@ -1,0 +1,3 @@
+ALTER TABLE REPAS
+ADD CONSTRAINT cp_repas
+PRIMARY KEY ( id_repas);
