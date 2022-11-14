@@ -1,6 +1,6 @@
 CREATE TABLE SOUSCRIPTION (
     id_utilisateur VARCHAR(50),
-    date_debut_souscription DATE
+    date_debut_souscription DATE,
     date_fin_souscription DATE,
     frais_souscription float(50),
     option_souscription VARCHAR(50),
