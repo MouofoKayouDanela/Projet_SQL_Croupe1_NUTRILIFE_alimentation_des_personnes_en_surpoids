@@ -1,4 +1,4 @@
-CREATE TABLE REGIME_REPAS
+CREATE TABLE 
 (
     id_programme_regime INT,
     id_repas INT,
