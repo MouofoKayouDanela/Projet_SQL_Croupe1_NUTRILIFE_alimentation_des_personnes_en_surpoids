@@ -4,5 +4,5 @@ CREATE TABLE PERSONNE
     nom_personne VARCHAR(50),
     prenom_personne VARCHAR(50),
     date_naissance DATE,
-    genre CHAR5(10)
+    genre CHAR(10)
 );
