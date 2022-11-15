@@ -1,5 +1,5 @@
 PROMPT ******************** AJOUT DES CONTRAINTES ********************
-@ValeursNulles/VnIndex
-@VerificationsValeurs/VvIndex
-@ClesPrimaires/CpIndex
-@ClesEtrangeres/CeIndex
+@./Tables/Contraintes/ValeursNulles/VnIndex
+@./Tables/Contraintes/VerificationsValeurs/VvIndex
+@./Tables/Contraintes/ClesPrimaires/CpIndex
+@./Tables/Contraintes/ClesEtrangeres/CeIndex
