@@ -8,8 +8,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE001',
-    'PE001',
+    '1',
+    '1',
     92.6,
     1.76,
     TO_DATE('03/02/2020', 'dd/mm/yyyy')
@@ -24,8 +24,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE011',
-    'PE002',
+    '11',
+    '2',
     59.1,
     1.45,
     TO_DATE('17/02/2020', 'dd/mm/yyyy')
@@ -40,8 +40,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE003',
-    'PE003',
+    '3',
+    '3',
     87.3,
     1.72,
     TO_DATE('16/03/2020', 'dd/mm/yyyy')
@@ -56,8 +56,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE004',
-    'PE004',
+    '4',
+    '4',
     83.5,
     1.73,
     TO_DATE('05/04/2021', 'dd/mm/yyyy')
@@ -72,8 +72,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE020',
-    'PE005',
+    '20',
+    '5',
     73.3,
     1.59,
     TO_DATE('19/04/2021', 'dd/mm/yyyy')
@@ -88,8 +88,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE018',
-    'PE006',
+    '18',
+    '6',
     72.6,
     1.61,
     TO_DATE('14/06/2021', 'dd/mm/yyyy')
@@ -104,8 +104,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE017',
-    'PE007',
+    '17',
+    '7',
     66.4,
     1.49,
     TO_DATE('15/08/2022', 'dd/mm/yyyy')
@@ -120,8 +120,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE008',
-    'PE008',
+    '8',
+    '8',
     88.8,
     1.75,
     TO_DATE('19/09/2022', 'dd/mm/yyyy')
@@ -136,8 +136,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE015',
-    'PE009',
+    '15',
+    '9',
     68.1,
     1.56,
     TO_DATE('19/02/2020', 'dd/mm/yyyy')
@@ -152,8 +152,8 @@ INSERT INTO PARAMETRES_MEMBRES
 )
 VALUES
 (
-    'PE014',
-    'PE010',
+    '14',
+    '10',
     74.3,
     1.69,
     TO_DATE('19/02/2020', 'dd/mm/yyyy')

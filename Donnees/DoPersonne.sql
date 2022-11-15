@@ -8,7 +8,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO1',
+    '1',
     'Elessa',
     'Goerges',
     TO_DATE('17/09/1983', 'dd/mm/yyyy'),
@@ -24,7 +24,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO2',
+    '2',
     'Anguissa',
     'Samuel',
     TO_DATE('30/05/1989', 'dd/mm/yyyy'),
@@ -40,7 +40,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO3',
+    '3',
     'Ewalle',
     'Clemantine',
     TO_DATE('22/02/1982', 'dd/mm/yyyy'),
@@ -56,7 +56,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO4',
+    '4',
     'Kwelle',
     'Augustin',
     TO_DATE('01/09/1990', 'dd/mm/yyyy'),
@@ -72,7 +72,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO5',
+    '5',
     'Malla',
     'Celestine',
     TO_DATE('19/03/1986', 'dd/mm/yyyy'),
@@ -88,7 +88,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO6',
+    '6',
     'Ekollo',
     'Ernestine',
     TO_DATE('07/09/1988', 'dd/mm/yyyy'),
@@ -104,7 +104,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO7',
+    '7',
     'Nembot',
     'Appolite',
     TO_DATE('12/08/1984', 'dd/mm/yyyy'),
@@ -120,7 +120,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO8',
+    '8',
     'Temgoua',
     'Marcel',
     TO_DATE('21/12/1991', 'dd/mm/yyyy'),
@@ -136,7 +136,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO9',
+    '9',
     'Siyapze',
     'Nicole',
     TO_DATE('06/10/1992', 'dd/mm/yyyy'),
@@ -152,12 +152,13 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO10',
+    '10',
     'Ekalle',
     'Vincent',
     TO_DATE('15/04/1982', 'dd/mm/yyyy'),
     'masculin'
 );
+
 INSERT INTO PERSONNE
 (
     id_personne,
@@ -168,23 +169,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEOO1',
-    'Kameni',
-    'Sidonie',
-    TO_DATE('31/07/1987', 'dd/mm/yyyy'),
-    'feminin'
-);
-INSERT INTO PERSONNE
-(
-    id_personne,
-    nom_personne,
-    prenom_personne,
-    date_naissance,
-    genre
-)
-VALUES
-(
-    'PEO11',
+    '11',
     'Kenfack',
     'Nadege',
     TO_DATE('12/11/1988', 'dd/mm/yyyy'),
@@ -200,7 +185,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO12',
+    '12',
     'Kemdeng',
     'Virginie',
     TO_DATE('29/06/1992', 'dd/mm/yyyy'),
@@ -216,7 +201,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO13',
+    '13',
     'Maimouna',
     'Saadiya',
     TO_DATE('11/10/1990', 'dd/mm/yyyy'),
@@ -232,7 +217,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO14',
+    '14',
     'Ngueguaing',
     'Rose',
     TO_DATE('02/05/1986', 'dd/mm/yyyy'),
@@ -248,7 +233,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO15',
+    '15',
     'Etonde',
     'Geraldine',
     TO_DATE('14/02/1987', 'dd/mm/yyyy'),
@@ -264,7 +249,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO16',
+    '16',
     'Biwalle',
     'Armandine',
     TO_DATE('07/08/1985', 'dd/mm/yyyy'),
@@ -296,7 +281,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO18',
+    '18',
     'Poumeni',
     'Philomene',
     TO_DATE('08/08/1988', 'dd/mm/yyyy'),
@@ -312,7 +297,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO19',
+    '19',
     'Tchoumeni',
     'Esthere',
     TO_DATE('16/05/1991', 'dd/mm/yyyy'),
@@ -328,7 +313,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO20',
+    '20',
     'Essengue',
     'Paul',
     TO_DATE('27/06/1983', 'dd/mm/yyyy'),
