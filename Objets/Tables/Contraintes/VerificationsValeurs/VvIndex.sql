@@ -5,4 +5,3 @@ PROMPT ****** contraintes de valeurs de domaine ******
 @@VvRegimeActivite
 @@VvRepas
 @@VvSouscription
-@@VvUtilisateur 
