@@ -1,4 +1,4 @@
-CREATE TABLE INGREDIENT   (
-    id_ingredient VARCHAR(50),
-    nom_ingredient VARCHAR(50)
+CREATE TABLE INGREDIENT (
+    id_ingredient VARCHAR(255),
+    nom_ingredient VARCHAR(255)
 );

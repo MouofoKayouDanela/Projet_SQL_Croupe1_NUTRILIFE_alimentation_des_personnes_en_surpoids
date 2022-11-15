@@ -1,5 +1,4 @@
 ALTER TABLE ACTIVITE  (
     MODIFY id_activite VARCHAR(50) NOT NULL
     MODIFY nom_activite VARCHAR(50) NOT NULL
-    MODIFY description VARCHAR(50) NOT NULL
 );
