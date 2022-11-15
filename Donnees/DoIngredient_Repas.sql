@@ -1,527 +1,595 @@
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN010','RE001',30);
+VALUES('10','1',30);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN026','RE001',2000);
+VALUES('26','1',2000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN017','RE002',50);
+VALUES('17','2',50);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN021','RE002',5);
+VALUES('21','2',5);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN020','RE002',5);
+VALUES('20','2',5);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN018','RE002',5);
+VALUES('18','2',5);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN019','RE002',5);
+VALUES('19','2',5);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN022','RE002',1500);
+VALUES('22','2',1500);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE002',2500);
+VALUES('45','2',2500);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN002','RE003',300);
+VALUES('2','3',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN012','RE003',1500);
+VALUES('12','3',1500);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE003',1000);
+VALUES('1','3',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE003',150);
+VALUES('5','3',150);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE003',100);
+VALUES('4','3',100);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE003',300);
+VALUES('6','3',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE003',15);
+VALUES('7','3',15);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE004',50);
+VALUES('1','4',50);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN030','RE004',175);
+VALUES('30','4',175);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE004',400);
+VALUES('5','4',400);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE004',500);
+VALUES('6','4',500);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE004',100);
+VALUES('7','4',100);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE004',120);
+VALUES('4','4',120);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN021','RE004',200);
+VALUES('21','4',200);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN028','RE004',800);
+VALUES('28','4',800);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE004',12);
+VALUES('45','4',12);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN016','RE005',600);
+VALUES('16','5',600);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE005',300);
+VALUES('1','5',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE005',4000);
+VALUES('6','5',4000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE005',140);
+VALUES('7','5',140);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE005',180);
+VALUES('4','5',180);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE005',600);
+VALUES('45','5',600);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN003','RE005',190);
+VALUES('3','5',190);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN015','RE005',1200);
+VALUES('15','5',1200);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN014','RE005',700);
+VALUES('14','5',700);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN036','RE005',340);
+VALUES('36','5',340);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN037','RE005',300);
+VALUES('37','5',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN046','RE005',1000);
+VALUES('46','5',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN040','RE006',2000);                    
+VALUES('40','6',2000);                    
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN018','RE006',290);                               
+VALUES('18','6',290);                               
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE006',1000);                        
+VALUES('45','6',1000);                        
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN024','RE006',900);                         
+VALUES('24','6',900);                         
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN028','RE006',300);                           
+VALUES('28','6',300);                           
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN025','RE006',1400);                          
+VALUES('25','6',1400);                          
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE007',650);                          
+VALUES('1','7',650);                          
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE007',1300);            
+VALUES('5','7',1300);            
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE007',480);                         
+VALUES('4','7',480);                         
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE007',5000); 
+VALUES('6','7',5000); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE007',450); 
+VALUES('7','7',450); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN002','RE007',670); 
+VALUES('2','7',670); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN003','RE007',500); 
+VALUES('3','7',500); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN009','RE008',3000);                   
+VALUES('9','8',3000);                   
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN015','RE008',2000); 
+VALUES('15','8',2000); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN033','RE008',190);                           
+VALUES('33','8',190);                           
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE008',120); 
+VALUES('5','8',120); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN013','RE008',200);                  
+VALUES('13','8',200);                  
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN047','RE008',1000); 
-
-INSERT INTO
-INGREDIENTS_REPAS(id_ingredient,id_repas,)
-VALUES('IN016','RE009',400);                    
+VALUES('47','8',1000); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,)
-VALUES('IN004','RE009',1000);
+VALUES('16','9',400);                    
 
 INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,)
+VALUES('4','9',1000);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('3','9',350);                    
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('16','10',390);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('3','10',2000);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('24','10',1800);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('6','10',700);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('7','10',600);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('2','11',4000);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('4','11',3000);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('34','11',1200);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('13','12',2000);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('14','12',700);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('45','12',90);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('6','12',5);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('36','12',13);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('23','13',24);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('1','13',50);
+
+INSERT INTO
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
+VALUES('6','13',800);
+
+INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN003','RE009',350);                    
+VALUES('7','13',430);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN016','RE010',390);
+VALUES('45','13',600);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN003','RE010',2000);
+VALUES('5','13',400);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN024','RE010',1800);
+VALUES('25','13',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE010',700);
+VALUES('24','13',2000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE010',600);
+VALUES('10','15',200);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN002','RE011',4000);
+VALUES('11','15',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE011',3000);
+VALUES('1','14',2000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN034','RE011',1200);
+VALUES('9','14',75);             
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN013','RE012',2000);
+VALUES('8','14',460);                 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN014','RE012',700);
+VALUES('5','14',3000); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE012',90);
+VALUES('45','14',400); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE012',5);
+VALUES('4','14',180); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN036','RE012',13);
+VALUES('2','16',2000); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN023','RE013',24);
+VALUES('4','16',300); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE013',50);
+VALUES('34','16',900); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE013',800);
+VALUES('45','16',800); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE013',430);
+VALUES('1','17',1200);    
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE013',600);
+VALUES('16','17',1000); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE013',400);
+VALUES('5','17',1200); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN025','RE013',1000);
+VALUES('6','17',20); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN024','RE013',2000);
+VALUES('7','17',5); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN010','RE015',200);
+VALUES('15','17',8); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN011','RE015',300);
+VALUES('4','17',12); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE014',2000);
+VALUES('3','17',500); 
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN009','RE014',75);             
+VALUES('2','18',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN008','RE014',460);                 
+VALUES('9','18',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE014',3000); 
+VALUES('5','18',150);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE014',400); 
+VALUES('6','18',500);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE014',180); 
+VALUES('7','18',200);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN002','RE016',2000); 
+VALUES('4','18',4000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE016',300); 
+VALUES('1','18',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN034','RE016',900); 
+VALUES('48','19',10);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE016',800); 
+VALUES('49','19',200);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE017',1200);    
+VALUES('15','19',800);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN016','RE017',1000); 
+VALUES('36','19',90);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE017',1200); 
+VALUES('13','19',120);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE017',20); 
+VALUES('50','19',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE017',5); 
+VALUES('1','19',200);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN015','RE017',8); 
+VALUES('7','19',500);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE017',12); 
+VALUES('41','19',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN003','RE017',500); 
+VALUES('31','20',10);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN002','RE018',300);
+VALUES('32','20',140);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN009','RE018',1000);
+VALUES('21','20',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE018',150);
+VALUES('5','20',600);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE018',500);
+VALUES('6','20',490);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE018',200);
+VALUES('7','20',1800);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE018',4000);
+VALUES('45','20',400);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE018',1000);
+VALUES('42','20',120);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN048','RE019',10);
+VALUES('4','20',129);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN049','RE019',200);
+VALUES('46','21',450);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN015','RE019',800);
+VALUES('51','21',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN036','RE019',90);
+VALUES('1','21',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN013','RE019',120);
+VALUES('5','21',50);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN050','RE019',1000);
+VALUES('45','21',1800);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE019',200);
+VALUES('6','21',250);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE019',500);
+VALUES('7','21',2);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN041','RE019',1000);
+VALUES('7','22',5);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN031','RE020',10);
+VALUES('47','22',20);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN032','RE020',140);
+VALUES('15','22',35);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN021','RE020',300);
+VALUES('23','22',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE020',600);
+VALUES('6','22',5);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE020',490);
+VALUES('45','22',2);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE020',1800);
+VALUES('5','22',10);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE020',400);
+VALUES('7','23',10);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN042','RE020',120);
+VALUES('6','23',10);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN004','RE020',129);
+VALUES('2','23',1000);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN046','RE021',450);
+VALUES('1','23',300);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN051','RE021',300);
+VALUES('4','23',5);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN001','RE021',1000);
+VALUES('36','23',200);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN005','RE021',50);
+VALUES('45','23',3);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN045','RE021',1800);
+VALUES('5','23',10);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN006','RE021',250);
+VALUES('15','23',100);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('IN007','RE021',2);
+VALUES('47','23',150);

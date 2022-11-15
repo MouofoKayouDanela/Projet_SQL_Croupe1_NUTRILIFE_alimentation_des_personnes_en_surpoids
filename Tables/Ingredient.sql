@@ -1,4 +1,4 @@
 CREATE TABLE INGREDIENT (
-    id_ingredient VARCHAR(255),
+    id_ingredient INT,
     nom_ingredient VARCHAR(255)
 );

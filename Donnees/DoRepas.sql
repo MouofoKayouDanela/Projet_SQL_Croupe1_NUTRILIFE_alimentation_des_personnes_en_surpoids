@@ -54,7 +54,7 @@ REPAS(id_repas,nom_repas,prix_repas)
 VALUES('18','Bouillon de Pommes au poisson cuit sans huile ',3000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('19','Salade composee de fruits et legumes accompagnee de pain complet et de sauce vinaigrette a;;egee en matieres grasses',3000);
+VALUES('19','Salade composee de fruits et legumes accompagnee de pain complet et de sauce vinaigrette allegee en matieres grasses',3000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
 VALUES('20','Ndole de boeuf viande accompagne de miondo',4000);
@@ -63,7 +63,7 @@ REPAS(id_repas,nom_repas,prix_repas)
 VALUES('21','Epinard cuit accompagne de patate douce ',4000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('22','Haricots verts vapeurs accompagnes de carrottes cuites a la vapeur et de legimes verts  ',2000);
+VALUES('22','Haricots verts vapeurs accompagnes de carrottes cuites a la vapeur et de legumes verts  ',2000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
 VALUES('23','Salade de legumes et fruits locaux accompagnes de thon emiette ',4000);

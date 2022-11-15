@@ -1,7 +1,7 @@
 CREATE TABLE REGIME_ACTIVITE
 (
-    id_regime_programme VARCHAR(50),
-    id_activite VARCHAR(50),
+    id_regime_programme INT,
+    id_activite INT,
     jour_activite DATE,
     duree FLOAT(10)
 );

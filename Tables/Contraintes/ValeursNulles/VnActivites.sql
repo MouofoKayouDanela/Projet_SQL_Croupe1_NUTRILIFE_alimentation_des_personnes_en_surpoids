@@ -1,4 +1,4 @@
 ALTER TABLE ACTIVITE  (
-    MODIFY id_activite VARCHAR(50) NOT NULL
+    MODIFY id_activite INT NOT NULL
     MODIFY nom_activite VARCHAR(50) NOT NULL
 );

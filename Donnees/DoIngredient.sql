@@ -1,153 +1,153 @@
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)
-VALUES('IN001','Tomate');
+VALUES('1','Tomate');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN002','Poisson');
+VALUES('2','Poisson');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN003','Riz');
+VALUES('3','Riz');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN004','Epice');
+VALUES('4','Epice');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN005','Condiments verts');
+VALUES('5','Condiments verts');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN006','Ails');
+VALUES('6','Ails');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN007','Oignons');
+VALUES('7','Oignons');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN008','Crabes');
+VALUES('8','Crabes');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN009','Pommes de Terre');
+VALUES('9','Pommes de Terre');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN010','Yaourt');
+VALUES('10','Yaourt');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN011','Pomme_fruit');
+VALUES('11','Pomme_fruit');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN012','Banane');
+VALUES('12','Banane');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN013','Choux blanche');
+VALUES('13','Choux blanche');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN014','Courgette');
+VALUES('14','Courgette');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN015','Carotte');
+VALUES('15','Carotte');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN016','Poulet');
+VALUES('16','Poulet');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN017','Okok');
+VALUES('17','Okok');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN018','Pistache');
+VALUES('18','Pistache');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN019','Crevettes');
+VALUES('19','Crevettes');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN020','Manioc');
+VALUES('20','Manioc');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN021','Viande de boeuf');
+VALUES('21','Viande de boeuf');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN022','Huile_rouge');
+VALUES('22','Huile_rouge');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN023','Legumes');
+VALUES('23','Legumes');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN024','Macabo');
+VALUES('24','Macabo');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN025','Morue');
+VALUES('25','Morue');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN026','Ananas');
+VALUES('26','Ananas');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN027','Oeufs');
+VALUES('27','Oeufs');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN028','Mais');
+VALUES('28','Mais');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN029','Couscous manioc');
+VALUES('29','Couscous manioc');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN030','Gombo');
+VALUES('30','Gombo');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN031','Ndolè');
+VALUES('31','Ndolè');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN032','Arrachides');
+VALUES('32','Arrachides');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN033','Melon');
+VALUES('33','Melon');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN034','Plantain');
+VALUES('34','Plantain');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN035','Baton de manioc');
+VALUES('35','Baton de manioc');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN036','Conconbre');
+VALUES('36','Conconbre');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN037','Aubergine');
+VALUES('37','Aubergine');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN038','Django');
+VALUES('38','Django');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN039','Piment');
+VALUES('39','Piment');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN040','Feuille de kwem');
+VALUES('40','Feuille de kwem');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN041','Laitue');
+VALUES('41','Laitue');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN042','Miondo');
+VALUES('42','Miondo');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN043','Ignames');   
+VALUES('43','Ignames');   
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN044','Viande de lapin');
+VALUES('44','Viande de lapin');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN045','Sel');
+VALUES('45','Sel');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN046','Patate'); 
+VALUES('46','Patate'); 
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN047','Haricot vert'); 
+VALUES('47','Haricot vert'); 
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN048','Pain Complet');  
+VALUES('48','Pain Complet');  
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN049','Sauce vinaigrette');
+VALUES('49','Sauce vinaigrette');
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN050','Choux rouge'); 
+VALUES('50','Choux rouge'); 
 INSERT INTO
 INGREDIENT( id_ingredient,nom_ingredient)    
-VALUES('IN051','Epinards'); 
+VALUES('51','Epinards'); 
