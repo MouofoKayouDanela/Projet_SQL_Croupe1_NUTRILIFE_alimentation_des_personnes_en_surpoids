@@ -265,7 +265,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PE017',
+    '17',
     'Womecha',
     'Marie',
     TO_DATE('15/01/1982', 'dd/mm/yyyy'),
@@ -313,7 +313,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    '20',
+    'PEO20',
     'Essengue',
     'Paul',
     TO_DATE('27/06/1983', 'dd/mm/yyyy'),

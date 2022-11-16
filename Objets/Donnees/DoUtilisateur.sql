@@ -52,7 +52,7 @@ VALUES
     '4',
     'kwelleaugustin@gmail.com',
     'august90',
-    TO_DATE('05/04/2021' 'dd/mm/yyyy')
+    TO_DATE('05/04/2021', 'dd/mm/yyyy')
 );
 INSERT INTO UTILISATEUR
 (

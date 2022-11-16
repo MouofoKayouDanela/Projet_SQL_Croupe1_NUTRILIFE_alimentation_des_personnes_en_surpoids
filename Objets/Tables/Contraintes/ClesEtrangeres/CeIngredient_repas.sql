@@ -1,4 +1,4 @@
-ALTER TABLE INGREDIENT_REPAS
+ALTER TABLE INGREDIENTS_REPAS
 ADD(
         CONSTRAINT ce_ingredients_repas_id_ingredient
         FOREIGN KEY (id_ingredient) REFERENCES INGREDIENT (id_ingredient),

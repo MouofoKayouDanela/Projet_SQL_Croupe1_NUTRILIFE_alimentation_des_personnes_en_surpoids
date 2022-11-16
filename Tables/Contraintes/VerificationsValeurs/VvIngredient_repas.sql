@@ -1,3 +1,0 @@
-ALTER TABLE INGREDIENT_REPAS
-ADD CONSTRAINT vv_ingredient_repas
-  CHECK( quantite>0);

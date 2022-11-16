@@ -1,0 +1,3 @@
+ALTER TABLE INGREDIENTS_REPAS
+ADD CONSTRAINT vv_ingredient_repas
+  CHECK(quantite>0);
