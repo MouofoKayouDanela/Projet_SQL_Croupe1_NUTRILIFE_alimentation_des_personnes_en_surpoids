@@ -223,11 +223,11 @@ INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
 VALUES('47','8',1000); 
 
 INSERT INTO
-INGREDIENTS_REPAS(id_ingredient,id_repas,)
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
 VALUES('16','9',400);                    
 
 INSERT INTO
-INGREDIENTS_REPAS(id_ingredient,id_repas,)
+INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
 VALUES('4','9',1000);
 
 INSERT INTO
