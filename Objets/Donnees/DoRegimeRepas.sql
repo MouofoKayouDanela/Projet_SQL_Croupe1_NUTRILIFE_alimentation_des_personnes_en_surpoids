@@ -42,7 +42,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('1','9',5,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('1','14',5,12,'diner');
+VALUES('1','14',5,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('1','1',6,6,'petit-dejeuner');
@@ -105,7 +105,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('1','21',12,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('1','14',12,12,'diner');
+VALUES('1','14',12,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('1','1',13,6,'petit-dejeuner');
@@ -117,10 +117,10 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('1','11',13,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('1','8',14,18,'petit-dejeuner');
+VALUES('1','8',14,6,'petit-dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('1','13',14,18,'dejeuner');
+VALUES('1','13',14,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('1','15',14,18,'diner');
@@ -150,7 +150,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('1','9',17,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('1','14',17,12,'diner');
+VALUES('1','14',17,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('1','1',18,6,'petit-dejeuner');
@@ -258,7 +258,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('2','9',1,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('2','14',1,12,'diner');
+VALUES('2','14',1,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('2','1',2,6,'petit-dejeuner');
@@ -348,7 +348,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('3','21',4,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('3','14',4,12,'diner');
+VALUES('3','14',4,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('3','1',5,6,'petit-dejeuner');
@@ -360,10 +360,10 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('3','11',5,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('3','8',6,18,'petit-dejeuner');
+VALUES('3','8',6,6,'petit-dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('3','13',6,18,'dejeuner');
+VALUES('3','13',6,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('3','15',6,18,'diner');
@@ -438,7 +438,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('4','21',7,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('4','14',7,12,'diner');
+VALUES('4','14',7,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('5','15',1,6,'petit-dejeuner');
@@ -546,7 +546,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('5','9',12,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('5','14',12,12,'diner');
+VALUES('5','14',12,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('5','1',13,6,'petit-dejeuner');
@@ -600,7 +600,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('5','9',18,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('5','14',18,12,'diner');
+VALUES('5','14',18,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('5','1',19,6,'petit-dejeuner');
@@ -654,7 +654,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('5','9',24,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('5','14',24,12,'diner');
+VALUES('5','14',24,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('5','1',25,6,'petit-dejeuner');
@@ -735,7 +735,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('6','9',5,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('6','14',5,12,'diner');
+VALUES('6','14',5,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('6','1',6,6,'petit-dejeuner');
@@ -798,7 +798,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('7','21',5,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('7','14',5,12,'diner');
+VALUES('7','14',5,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('7','1',6,6,'petit-dejeuner');
@@ -810,10 +810,10 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('7','11',6,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('7','8',7,18,'petit-dejeuner');
+VALUES('7','8',7,6,'petit-dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('7','13',7,18,'dejeuner');
+VALUES('7','13',7,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('7','15',7,18,'diner');
@@ -825,7 +825,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('8','9',1,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('8','14',1,12,'diner');
+VALUES('8','14',1,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('8','1',2,6,'petit-dejeuner');
@@ -924,7 +924,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('9','9',5,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('9','14',5,12,'diner');
+VALUES('9','14',5,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('9','01',6,6,'petit-dejeuner');
@@ -987,7 +987,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('9','21',12,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('9','14',12,12,'diner');
+VALUES('9','14',12,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('9','1',13,6,'petit-dejeuner');
@@ -999,10 +999,10 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('9','11',13,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('9','8',14,18,'petit-dejeuner');
+VALUES('9','8',14,6,'petit-dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('9','13',14,18,'dejeuner');
+VALUES('9','13',14,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('9','15',14,18,'diner');
@@ -1032,7 +1032,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('9','9',17,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('9','14',17,12,'diner');
+VALUES('9','14',17,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('9','1',18,6,'petit-dejeuner');
@@ -1140,7 +1140,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('10','9',1,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('10','14',1,12,'diner');
+VALUES('10','14',1,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('10','1',2,6,'petit-dejeuner');
@@ -1230,7 +1230,7 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('10','21',11,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('10','14',11,12,'diner');
+VALUES('10','14',11,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('10','1',12,6,'petit-dejeuner');
@@ -1242,10 +1242,10 @@ REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('10','11',12,18,'diner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('10','8',13,18,'petit-dejeuner');
+VALUES('10','8',13,6,'petit-dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
-VALUES('10','13',13,18,'dejeuner');
+VALUES('10','13',13,12,'dejeuner');
 INSERT INTO
 REGIME_REPAS(id_programme_regime,id_repas,jour_repas,periode,type_repas)
 VALUES('10','15',13,18,'diner');
