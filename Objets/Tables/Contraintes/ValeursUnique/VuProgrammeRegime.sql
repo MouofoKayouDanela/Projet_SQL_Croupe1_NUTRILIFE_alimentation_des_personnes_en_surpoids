@@ -1,0 +1,2 @@
+ALTER TABLE PROGRAMME_REGIME
+ADD CONSTRAINT vu_programme_regime UNIQUE(nom_regime);
