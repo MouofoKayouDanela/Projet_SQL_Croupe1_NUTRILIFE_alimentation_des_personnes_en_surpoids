@@ -1,3 +1,4 @@
+DROP SEQUENCE seq_ingredient;
 CREATE SEQUENCE seq_ingredient
 MINVALUE 51
 START WITH 51
