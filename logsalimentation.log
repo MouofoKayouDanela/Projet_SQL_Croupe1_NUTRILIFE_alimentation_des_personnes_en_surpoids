@@ -42,56 +42,152 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 ******************** CREATION DES TABLES ********************
+
+********************  TABLE PERSONNE ********************
 SP2-0640: Non connecté
+
+********************   TABLE UTILISATEUR ********************
 SP2-0640: Non connecté
+
+********************  TABLE PROGRAMME_REGIME ********************
 SP2-0640: Non connecté
+
+********************  TABLE SOUSCRIPTION ********************
 SP2-0640: Non connecté
+
+********************  TABLE PARAMETRES_MEMBRES ********************
 SP2-0640: Non connecté
+
+********************  TABLE REPAS ********************
 SP2-0640: Non connecté
+
+********************  TABLE REGIME_REPAS ********************
 SP2-0640: Non connecté
+
+********************  TABLE ACTIVITE ********************
 SP2-0640: Non connecté
+
+********************   TABLE REGIME_ACTIVITE ********************
 SP2-0640: Non connecté
+
+********************   TABLE INGREDIENT ********************
 SP2-0640: Non connecté
+
+********************  TABLE INGREDIENT_REPAS********************
 SP2-0640: Non connecté
 ******************** AJOUT DES CONTRAINTES ********************
 ****** contraintes de valeurs obligatoires ******
+
+******   DE LA TABLE ACTIVITE******
+SP2-0640: Non connecté
+
+******   DE LA TABLE INGREDIENT_REPAS******
+SP2-0640: Non connecté
+
+******   DE LA TABLE INGREDIENT******
+SP2-0640: Non connecté
+
+******   DE LA TABLE PARAMETRES_MEMBRES******
+SP2-0640: Non connecté
+
+******   DE LA TABLE PERSONNE******
+SP2-0640: Non connecté
+
+******   DE LA TABLE PROGRAMME_REGIME******
+SP2-0640: Non connecté
+
+******   DE LA TABLE REGIME_REPAS******
+SP2-0640: Non connecté
+
+******   DE LA TABLE REGIME_ACTIVITE******
+SP2-0640: Non connecté
+
+******   DE LA TABLE REPAS******
+SP2-0640: Non connecté
+
+******   DE LA TABLE SOUSCRIPTION******
+SP2-0640: Non connecté
+
+******   DE LA TABLE UTILISATEUR******
+SP2-0640: Non connecté
+****** contraintes de valeurs uniques ******
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
-SP2-0640: Non connecté
+SP2-0310: impossible d'ouvrir le fichier "./Objets/Tables/Contraintes/ValeursUnique/VuActivites.sql"
+SP2-0310: impossible d'ouvrir le fichier "./Objets/Tables/Contraintes/ValeursUnique/VuIngredient.sql"
+SP2-0310: impossible d'ouvrir le fichier "./Objets/Tables/Contraintes/ValeursUnique/VuUtilisateur.sql"
 ****** contraintes de valeurs de domaine ******
+
+******  DE LA TABLE INGREDIENT_REPAS ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE PARAMETRES_MEMBRES******
 SP2-0640: Non connecté
+
+******  DE LA TABLE REGIME_REPAS ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE REGIME_ACTIVITE ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE REPAS ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE SOUSCRIPTION ******
 SP2-0640: Non connecté
 ****** contraintes de cles primaires ******
+
+****** DE LA TABLE ACTIVITE ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE INGREDIENT_REPAS ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE INGREDIENT ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE PERSONNE ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE PROGRAMME_REGIME ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE REGIME_REPAS ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE REGIME_ACTIVITE ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE REPAS ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE SOUSCRIPTION ******
 SP2-0640: Non connecté
+
+******  DE LA TABLE UTILISATEUR ******
 SP2-0640: Non connecté
 ******* contraintes de cles etrangeres *******
+
+*******  DE LA TABLE UTILISATEUR*******
 SP2-0640: Non connecté
+
+*******  DE LA TABLE SOUSCRIPTION*******
 SP2-0640: Non connecté
+
+*******  DE LA TABLE PARAMETRES_MEMBRES*******
 SP2-0640: Non connecté
+
+*******  DE LA TABLE REGIME_ACTIVITE*******
 SP2-0640: Non connecté
+
+*******  DE LA TABLE REPAS******
 SP2-0640: Non connecté
+
+*******  DE LA TABLE INGREDIENT_REPAS*******
 SP2-0640: Non connecté
 ******************** INSERTIONS DES DONNEES ********************
+********************  TABLE PERSONNES ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -112,6 +208,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE UTILISATEUR ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -122,6 +219,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE PROGRAMME_REGIME ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -132,6 +230,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE SOUSCRIPTION ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -142,6 +241,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE PARAMETRES_MEMBRES ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -152,6 +252,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE ACTIVITE ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -162,6 +263,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE REGIME_ACTIVITE ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -194,6 +296,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE REPAS ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -217,6 +320,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE REGIME_REPAS ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -637,6 +741,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE INGREDIENT********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -688,6 +793,7 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+********************  TABLE INGREDIENT_REPAS ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
@@ -827,6 +933,17 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+SP2-0640: Non connecté
+******************** EXECUTION DES SEQUENCES ********************
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
