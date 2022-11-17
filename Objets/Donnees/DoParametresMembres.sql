@@ -140,7 +140,7 @@ VALUES
     '9',
     68.1,
     1.56,
-    TO_DATE('19/02/2020', 'dd/mm/yyyy')
+    TO_DATE('17/10/2022', 'dd/mm/yyyy')
 );
 INSERT INTO PARAMETRES_MEMBRES
 (
@@ -156,5 +156,5 @@ VALUES
     '10',
     74.3,
     1.69,
-    TO_DATE('19/02/2020', 'dd/mm/yyyy')
+    TO_DATE('12/12/2022', 'dd/mm/yyyy')
 );

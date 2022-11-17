@@ -313,7 +313,7 @@ INSERT INTO PERSONNE
 )
 VALUES
 (
-    'PEO20',
+    '20',
     'Essengue',
     'Paul',
     TO_DATE('27/06/1983', 'dd/mm/yyyy'),

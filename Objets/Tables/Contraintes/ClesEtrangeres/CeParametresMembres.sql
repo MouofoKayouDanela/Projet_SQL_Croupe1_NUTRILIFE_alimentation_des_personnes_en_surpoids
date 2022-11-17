@@ -5,5 +5,5 @@ ADD(
     REFERENCES PERSONNE(id_personne),
     CONSTRAINT ce_parametres_membres_id_utilisateur_date_debut_souscription
     FOREIGN KEY (id_utilisateur, date_debut_souscription) 
-    REFERENCES PARAMETRES_MEMBRES(id_utilisateur, date_debut_souscription)
+    REFERENCES SOUSCRIPTION(id_utilisateur, date_debut_souscription)
 );

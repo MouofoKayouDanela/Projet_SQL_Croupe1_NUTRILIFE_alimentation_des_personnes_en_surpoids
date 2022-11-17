@@ -1,4 +1,4 @@
-ALTER TABLE SOUSCRIPTION (
+ALTER TABLE SOUSCRIPTION 
   MODIFY  id_utilisateur INT NOT NULL
   MODIFY  date_debut_souscription DATE NOT NULL
   MODIFY  date_fin_souscription DATE NOT NULL
