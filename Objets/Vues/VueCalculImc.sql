@@ -7,5 +7,5 @@ SELECT id_utilisateur,
            WHEN ROUND((masse_initiale / (taille_utilisateur * taille_utilisateur)), 1) BETWEEN 25 AND 29.9 THEN 'individu en surpoids'
            ELSE 'individu obese'
         END
-FROM PARAMETRES_MEMBRES-
+FROM PARAMETRES_MEMBRES
 ;
