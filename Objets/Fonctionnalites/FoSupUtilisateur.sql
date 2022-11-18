@@ -1,0 +1,7 @@
+UNDEFINE mail
+SET DEFINE ON 
+BEGIN 
+DELETE FROM UTILISATEUR 
+WHERE email = '&mail'; 
+END;
+/

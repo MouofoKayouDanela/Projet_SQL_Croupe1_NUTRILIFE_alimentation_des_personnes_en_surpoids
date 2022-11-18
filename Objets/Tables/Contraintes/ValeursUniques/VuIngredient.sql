@@ -1,0 +1,2 @@
+ALTER TABLE INGREDIENT
+ADD CONSTRAINT vu_ingredient UNIQUE (nom_ingredient);

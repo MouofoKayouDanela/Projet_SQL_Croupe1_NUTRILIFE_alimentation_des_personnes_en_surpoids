@@ -276,7 +276,7 @@ VALUES('14','12',700);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
-VALUES('45','12',90);
+VALUES('45','12',5);
 
 INSERT INTO
 INGREDIENTS_REPAS(id_ingredient,id_repas,quantite)
