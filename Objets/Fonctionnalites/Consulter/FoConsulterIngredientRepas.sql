@@ -1,3 +1,4 @@
+UNDEFINE nom_repas
 SELECT repa.nom_repas "Nom du repas",ing.nom_ingredient "Ingredient",inrep.quantite||' gramme(s)'  "Quantite"
 FROM REPAS repa 
 JOIN INGREDIENTS_REPAS inrep 

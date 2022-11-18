@@ -1,4 +1,5 @@
 PROMPT ******************** LISTE DES REPAS D'UN REGIME ********************
+UNDEFINE nom_du_regime
 SELECT nom_repas
 FROM REPAS rep 
 JOIN REGIME_REPAS reg_rep

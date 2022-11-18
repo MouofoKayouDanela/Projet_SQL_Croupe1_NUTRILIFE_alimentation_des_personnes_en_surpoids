@@ -1,8 +1,8 @@
 UNDEFINE nom
 UNDEFINE description_act
-set DEFINE on
+SET DEFINE ON
 begin
-delete from ACTIVITE
+DELETE FROM ACTIVITE
 WHERE nom_activite='&nom' AND description_activite='&description_act';
-end;
+END;
 /

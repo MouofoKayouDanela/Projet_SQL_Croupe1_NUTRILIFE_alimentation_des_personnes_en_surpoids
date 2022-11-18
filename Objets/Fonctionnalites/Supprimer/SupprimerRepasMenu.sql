@@ -1,3 +1,6 @@
+UNDEFINE nomRegime
+UNDEFINE jour_repas
+UNDEFINE id_repas
 DELETE FROM 
 (
     SELECT * FROM REGIME_REPAS
