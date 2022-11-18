@@ -1,5 +1,5 @@
-CREATE VIEW CALCUL_IMC(id_utilisateur, indice_de_masse_corporelle, interpretation) AS
-SELECT id_utilisateur,
+CREATE VIEW CALCUL_IMC(id_membre, indice_de_masse_corporelle, interpretation) AS
+SELECT id_personne,
        ROUND((masse_initiale / (taille_utilisateur * taille_utilisateur)), 1),
        CASE 
            WHEN ROUND((masse_initiale / (taille_utilisateur * taille_utilisateur)), 1)  < 18.5 THEN 'individu maigre'
