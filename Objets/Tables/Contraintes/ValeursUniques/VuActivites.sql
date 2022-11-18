@@ -1,0 +1,2 @@
+ALTER TABLE ACTIVITE 
+ADD CONSTRAINT vu_activite UNIQUE (nom_activite);
