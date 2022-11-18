@@ -5,3 +5,5 @@
 @./Objets/Tables/Contraintes/Index_contraintes
 @./Objets/Donnees/Index_donnees
 @./Objets/Sequences/SeIndex
+@./Objets/Index
+@./Objets/Vues/VueCalculImc
