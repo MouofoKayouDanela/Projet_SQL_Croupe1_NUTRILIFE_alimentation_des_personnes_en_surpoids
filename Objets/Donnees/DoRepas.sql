@@ -1,9 +1,9 @@
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('1','Yaourt maigre accompagne des ananas tiges ',3500);
+VALUES('1','Yaourt maigre accompagne des ananas tiges',3500);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('2','Okok pistache sans arachide a la viande de boeuf accompagne de tubercules de manioc cuits a la vapeur ',3000);
+VALUES('2','Okok pistache sans arachide a la viande de boeuf accompagne de tubercules de manioc cuits a la vapeur',3000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
 VALUES('3','Pepe soupe sans huile accompagne de poisson cuit et de banane vapeur non mure',2000);
@@ -21,7 +21,7 @@ REPAS(id_repas,nom_repas,prix_repas)
 VALUES('7','Sauce tomate sans huile au poisson cuit accompagne de riz blanc ',3000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('8','Potage de legumes et fruits sans graisses ',1500);
+VALUES('8','Potage de legumes et fruits sans graisses',1500);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
 VALUES('9','Blanc de Poulet au four accompagne de riz blanc',3500);
@@ -39,10 +39,10 @@ REPAS(id_repas,nom_repas,prix_repas)
 VALUES('13','Legumes sautes sans huile a la morue fumee accompagnee de tubercules de macabo vapeur',2000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('14','Bouillon de crabes sans huile accompagne de pommes de terre cuite a la vapeur ',2500);
+VALUES('14','Bouillon de crabes sans huile accompagne de pommes de terre cuite a la vapeur',2500);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('15','Yaourt maigre accompagne de pomme ',4000);
+VALUES('15','Yaourt maigre accompagne de pomme',4000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
 VALUES('16','Poisson cuit au four accompagne de plantain vapeur',2500);
@@ -60,11 +60,11 @@ REPAS(id_repas,nom_repas,prix_repas)
 VALUES('20','Ndole de boeuf viande accompagne de miondo',4000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('21','Epinard cuit accompagne de patate douce ',4000);
+VALUES('21','Epinard cuit accompagne de patate douce',4000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('22','Haricots verts vapeurs accompagnes de carrottes cuites a la vapeur et de legumes verts  ',2000);
+VALUES('22','Haricots verts vapeurs accompagnes de carrottes cuites a la vapeur et de legumes verts',2000);
 INSERT INTO
 REPAS(id_repas,nom_repas,prix_repas)
-VALUES('23','Salade de legumes et fruits locaux accompagnes de thon emiette ',4000);
+VALUES('23','Salade de legumes et fruits locaux accompagnes de thon emiette',4000);
 
