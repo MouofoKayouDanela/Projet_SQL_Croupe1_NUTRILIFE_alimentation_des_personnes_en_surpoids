@@ -1,0 +1,2644 @@
+*************** Suppression utilisateurs eventuels***************
+DROP USER nl CASCADE
+*
+ERREUR � la ligne 1 :
+ORA-01940: impossible de supprimer un utilisateur qui est connect�
+
+
+*************** Creation utilisateur ***************
+CREATE USER nl IDENTIFIED BY nl
+            *
+ERREUR � la ligne 1 :
+ORA-01920: nom utilisateur 'NL' en conflit avec autre nom utilisateur ou de
+r�le
+
+
+
+Utilisateur modifi�.
+
+
+Utilisateur modifi�.
+
+
+Autorisation de privil�ges (GRANT) accept�e.
+
+
+Autorisation de privil�ges (GRANT) accept�e.
+
+Connect�.
+
+Autorisation de privil�ges (GRANT) accept�e.
+
+Connect�.
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+******************** CREATION DES TABLES ********************
+
+********************  TABLE PERSONNE ********************
+
+Table cr��e.
+
+
+********************   TABLE UTILISATEUR ********************
+
+Table cr��e.
+
+
+********************  TABLE PROGRAMME_REGIME ********************
+
+Table cr��e.
+
+
+********************  TABLE SOUSCRIPTION ********************
+
+Table cr��e.
+
+
+********************  TABLE PARAMETRES_MEMBRES ********************
+
+Table cr��e.
+
+
+********************  TABLE REPAS ********************
+
+Table cr��e.
+
+
+********************  TABLE REGIME_REPAS ********************
+
+Table cr��e.
+
+
+********************  TABLE ACTIVITE ********************
+
+Table cr��e.
+
+
+********************   TABLE REGIME_ACTIVITE ********************
+
+Table cr��e.
+
+
+********************   TABLE INGREDIENT ********************
+
+Table cr��e.
+
+
+********************  TABLE INGREDIENT_REPAS********************
+
+Table cr��e.
+
+******************** AJOUT DES CONTRAINTES ********************
+****** contraintes de valeurs obligatoires ******
+
+******   DE LA TABLE ACTIVITE******
+
+Table modifi�e.
+
+
+******   DE LA TABLE INGREDIENT_REPAS******
+
+Table modifi�e.
+
+
+******   DE LA TABLE INGREDIENT******
+
+Table modifi�e.
+
+
+******   DE LA TABLE PARAMETRES_MEMBRES******
+
+Table modifi�e.
+
+
+******   DE LA TABLE PERSONNE******
+
+Table modifi�e.
+
+
+******   DE LA TABLE PROGRAMME_REGIME******
+
+Table modifi�e.
+
+
+******   DE LA TABLE REGIME_REPAS******
+
+Table modifi�e.
+
+
+******   DE LA TABLE REGIME_ACTIVITE******
+
+Table modifi�e.
+
+
+******   DE LA TABLE REPAS******
+
+Table modifi�e.
+
+
+******   DE LA TABLE SOUSCRIPTION******
+
+Table modifi�e.
+
+
+******   DE LA TABLE UTILISATEUR******
+
+Table modifi�e.
+
+****** contraintes de valeurs uniques ******
+
+Table modifi�e.
+
+ADD (CONSTRAINT vu_personne_pers UNIQUE(nom_personne,prenom_personne));,
+                                                                      *
+ERREUR � la ligne 2 :
+ORA-01735: option ALTER TABLE non valide
+
+
+
+Table modifi�e.
+
+SP2-0310: impossible d'ouvrir le fichier "./Objets/Tables/Contraintes/ValeursUnique/VuActivites.sql"
+SP2-0310: impossible d'ouvrir le fichier "./Objets/Tables/Contraintes/ValeursUnique/VuIngredient.sql"
+SP2-0310: impossible d'ouvrir le fichier "./Objets/Tables/Contraintes/ValeursUnique/VuUtilisateur.sql"
+****** contraintes de valeurs de domaine ******
+
+******  DE LA TABLE INGREDIENT_REPAS ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE PARAMETRES_MEMBRES******
+
+Table modifi�e.
+
+
+******  DE LA TABLE REGIME_REPAS ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE REGIME_ACTIVITE ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE REPAS ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE SOUSCRIPTION ******
+
+Table modifi�e.
+
+****** contraintes de cles primaires ******
+
+****** DE LA TABLE ACTIVITE ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE INGREDIENT_REPAS ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE INGREDIENT ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE PERSONNE ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE PROGRAMME_REGIME ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE REGIME_REPAS ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE REGIME_ACTIVITE ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE REPAS ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE SOUSCRIPTION ******
+
+Table modifi�e.
+
+
+******  DE LA TABLE UTILISATEUR ******
+
+Table modifi�e.
+
+******* contraintes de cles etrangeres *******
+
+*******  DE LA TABLE UTILISATEUR*******
+
+Table modifi�e.
+
+
+*******  DE LA TABLE SOUSCRIPTION*******
+
+Table modifi�e.
+
+
+*******  DE LA TABLE PARAMETRES_MEMBRES*******
+
+Table modifi�e.
+
+
+*******  DE LA TABLE REGIME_ACTIVITE*******
+
+Table modifi�e.
+
+
+*******  DE LA TABLE REPAS******
+
+Table modifi�e.
+
+
+*******  DE LA TABLE INGREDIENT_REPAS*******
+
+Table modifi�e.
+
+******************** INSERTIONS DES DONNEES ********************
+********************  TABLE PERSONNES ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE UTILISATEUR ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE PROGRAMME_REGIME ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE SOUSCRIPTION ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE PARAMETRES_MEMBRES ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE ACTIVITE ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE REGIME_ACTIVITE ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE REPAS ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE REGIME_REPAS ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE INGREDIENT********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+********************  TABLE INGREDIENT_REPAS ********************
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+
+1 ligne cr��e.
+
+******************** EXECUTION DES SEQUENCES ********************
+
+S�quence supprim�e.
+
+
+S�quence cr��e.
+
+
+S�quence supprim�e.
+
+
+S�quence cr��e.
+
+
+S�quence supprim�e.
+
+
+S�quence cr��e.
+
+
+S�quence supprim�e.
+
+
+S�quence cr��e.
+
+
+S�quence supprim�e.
+
+
+S�quence cr��e.
+
+SQL> ALTER TABLE PERSONNE
+  2  ADD (CONSTRAINT vu_personne_pers UNIQUE(nom_personne,prenom_personne));
+
+Table modifi�e.
+
+SQL> @Objets/Fonctionnalites/FoPersonnes
+Entrez une valeur pour nom : Elessa
+Entrez une valeur pour prenom : Val
+Entrez une valeur pour date_nais : 15/02/2022
+Entrez une valeur pour genre : Feminin
+
+1 ligne cr��e.
+
+SQL> @Objets/Fonctionnalites/FoPersonnes
+Entrez une valeur pour nom : Elessa
+Entrez une valeur pour prenom : Goerges
+Entrez une valeur pour date_nais : 15/02/2022
+Entrez une valeur pour genre : Feminin
+INSERT INTO PERSONNE(id_personne,nom_personne,prenom_personne,date_naissance,genre)
+*
+ERREUR � la ligne 1 :
+ORA-00001: violation de contrainte unique (NL.VU_PERSONNE_PERS)
+
+
+SQL> @Objets/Drop
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+
+Table supprim�e.
+
+SQL> exit
