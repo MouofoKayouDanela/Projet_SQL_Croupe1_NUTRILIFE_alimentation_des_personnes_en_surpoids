@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *************** Suppression utilisateurs eventuels***************
 
 Utilisateur supprimé.
@@ -968,3 +969,5 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SQL> exit
+=======
+>>>>>>> afd03169e1a28ee8c8f18ef9239f60c7c7a8921b

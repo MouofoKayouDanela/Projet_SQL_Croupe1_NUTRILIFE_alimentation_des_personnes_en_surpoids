@@ -3,6 +3,8 @@ UNDEFINE nom_de_l_utilisateur
 UNDEFINE prenom_de_l_utilisateur
 UNDEFINE option_de_la_souscription
 UNDEFINE nom_du_programme
+UNDEFINE nom_du_beneficiaire
+UNDEFINE prenom_du_beneficiaire
 UNDEFINE masse_du_beneficiaire
 UNDEFINE taille_du_beneficiaire
 INSERT ALL
