@@ -27,19 +27,19 @@ VALUES
     AND '&&prenom_de_l_utilisateur' = pe.prenom_personne),
     TO_DATE(SYSDATE, 'dd/mm/yyyy'),
     '&&option_de_la_souscription',
-    (SELECT CASE 
-            WHEN '&option_de_la_souscription' = 'MENSUELLE' THEN TO_DATE(SYSDATE + 27, 'dd/mm/yyyy')
-            WHEN '&option_de_la_souscription' = 'ANNUELLE' THEN TO_DATE(SYSDATE + (27 * 12), 'dd/mm/yyyy')
-            WHEN '&option_de_la_souscription' = 'BIHEBDOMMADAIRE' THEN TO_DATE( SYSDATE + 13, 'dd/mm/yyyy')
-            WHEN '&option_de_la_souscription' = 'HEBDOMMADAIRE' THEN TO_DATE(SYSDATE + 6, 'dd/mm/yyyy')
-           END
+    (SELECT DECODE 
+            ( '&option_de_la_souscription', 'MENSUELLE', TO_DATE(SYSDATE + 27, 'dd/mm/yyyy')
+                                          , 'ANNUELLE', TO_DATE(SYSDATE + (27 * 12), 'dd/mm/yyyy')
+                                          , 'BIHEBDOMMADAIRE', TO_DATE( SYSDATE + 13, 'dd/mm/yyyy')
+                                          , 'HEBDOMMADAIRE', TO_DATE(SYSDATE + 6, 'dd/mm/yyyy')
+            )
     FROM DUAL),
-    (SELECT CASE 
-            WHEN '&option_de_la_souscription' = 'MENSUELLE' THEN 5000*4
-            WHEN '&option_de_la_souscription' = 'ANNUELLE' THEN 5000*4*12
-            WHEN '&option_de_la_souscription' = 'BIHEBDOMMADAIRE' THEN 5000*2
-            WHEN '&option_de_la_souscription' = 'HEBDOMMADAIRE' THEN 5000
-           END
+    (SELECT DECODE 
+            ( '&option_de_la_souscription', 'MENSUELLE', 5000*4
+                                          , 'ANNUELLE', 5000*4*12
+                                          , 'BIHEBDOMMADAIRE', 5000*2
+                                          , 'HEBDOMMADAIRE', 5000
+            )
     FROM DUAL),
     (SELECT id_programme_regime
     FROM PROGRAMME_REGIME
