@@ -16,4 +16,4 @@ PROMPT ******  DE LA TABLE REPAS ******
 @@VvRepas
 PROMPT
 PROMPT ******  DE LA TABLE SOUSCRIPTION ******
-@@VvSouscription
+-- @@VvSouscription
