@@ -24,7 +24,8 @@ VALUES
     JOIN PERSONNE pe
     ON (ut.id_utilisateur = pe.id_personne)
     WHERE '&&nom_de_l_utilisateur' =  pe.nom_personne
-    AND '&&prenom_de_l_utilisateur' = pe.prenom_personne),
+    AND '&&prenom_de_l_utilisateur' = pe.prenom_personne
+    AND '&mot_de_passe_de_l_utilisateur' = ut.mot_de_passe),
     TO_DATE(SYSDATE, 'dd/mm/yyyy'),
     '&&option_de_la_souscription',
     (SELECT DECODE 
