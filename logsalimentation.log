@@ -967,39 +967,4 @@ SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
 SP2-0640: Non connecté
-SQL> @Objets/Tables/index_table
-******************** CREATION DES TABLES ********************
-
-********************  TABLE PERSONNE ********************
-SP2-0640: Non connecté
-
-********************   TABLE UTILISATEUR ********************
-SP2-0640: Non connecté
-
-********************  TABLE PROGRAMME_REGIME ********************
-SP2-0640: Non connecté
-
-********************  TABLE SOUSCRIPTION ********************
-SP2-0640: Non connecté
-
-********************  TABLE PARAMETRES_MEMBRES ********************
-SP2-0640: Non connecté
-
-********************  TABLE REPAS ********************
-SP2-0640: Non connecté
-
-********************  TABLE REGIME_REPAS ********************
-SP2-0640: Non connecté
-
-********************  TABLE ACTIVITE ********************
-SP2-0640: Non connecté
-
-********************   TABLE REGIME_ACTIVITE ********************
-SP2-0640: Non connecté
-
-********************   TABLE INGREDIENT ********************
-SP2-0640: Non connecté
-
-********************  TABLE INGREDIENT_REPAS********************
-SP2-0640: Non connecté
 SQL> exit

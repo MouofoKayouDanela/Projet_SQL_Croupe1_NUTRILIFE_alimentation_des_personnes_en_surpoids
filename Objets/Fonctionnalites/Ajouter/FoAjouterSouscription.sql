@@ -3,7 +3,10 @@ UNDEFINE nom_de_l_utilisateur
 UNDEFINE prenom_de_l_utilisateur
 UNDEFINE option_de_la_souscription
 UNDEFINE nom_du_programme
-INSERT INTO SOUSCRIPTION
+UNDEFINE masse_du_beneficiaire
+UNDEFINE taille_du_beneficiaire
+INSERT ALL
+INTO SOUSCRIPTION
 (
     id_utilisateur,
     date_debut_souscription,
@@ -18,8 +21,8 @@ VALUES
     FROM UTILISATEUR ut
     JOIN PERSONNE pe
     ON (ut.id_utilisateur = pe.id_personne)
-    WHERE '&nom_de_l_utilisateur' =  pe.nom_personne
-    AND '&prenom_de_l_utilisateur' = pe.prenom_personne),
+    WHERE '&&nom_de_l_utilisateur' =  pe.nom_personne
+    AND '&&prenom_de_l_utilisateur' = pe.prenom_personne),
     TO_DATE(SYSDATE, 'dd/mm/yyyy'),
     '&&option_de_la_souscription',
     (SELECT CASE 
@@ -39,4 +42,29 @@ VALUES
     (SELECT id_programme_regime
     FROM PROGRAMME_REGIME
     WHERE '&nom_du_programme' = nom_regime)
-);
+)
+INTO PARAMETRES_MEMBRES
+(
+    id_personne,
+    id_utilisateur,
+    masse_initiale,
+    taille_utilisateur,
+    date_debut_souscription
+)
+VALUES
+(
+    (SELECT id_personne
+    FROM PERSONNE
+    WHERE '&nom_du_beneficiaire' = nom_personne 
+    AND '&prenom_du_beneficiaire' = prenom_personne),
+    (SELECT ut.id_utilisateur
+    FROM UTILISATEUR ut
+    JOIN PERSONNE pe
+    ON (ut.id_utilisateur = pe.id_personne)
+    WHERE '&nom_de_l_utilisateur' =  pe.nom_personne
+    AND '&prenom_de_l_utilisateur' = pe.prenom_personne),
+    &masse_du_beneficiaire,
+    &taille_du_beneficiaire,
+    TO_DATE(SYSDATE, 'dd/mm/yyyy')
+)
+SELECT * FROM DUAL;
